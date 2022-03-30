@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4d4d4d;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 60px;
+}
+.nav{
+    display: flex;
+}
+.link-button{
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+    font-size: 17px;
+    position: relative;
+}
+.link-button:hover{
+    color: orange;
+}
+.sum{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 4px;
+    border-radius: 50%;
+}
